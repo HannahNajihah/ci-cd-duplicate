@@ -7,7 +7,7 @@ import pandas as pd  # Add this import
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 from main import load_and_process_data
 
-ef test_no_duplicates(capsys):
+def test_no_duplicates(capsys):
     """Test if duplicate rows are removed."""
 
     # Run the function
